@@ -1,5 +1,5 @@
 # LA1200-Lernbericht
-Lernbericht für Gruppenprojekt LA1200
+Lernbericht für Gruppenprojekt LA1200 dini mom
 
 # Lern-Bericht
 Gruppe Elephant: Angelov, Atputharasa, Marku, Tanner, von Rogall
