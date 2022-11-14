@@ -16,7 +16,8 @@ In unserem Code haben wir mehrmals Switch-Case angewendet, sind nun sicher beim 
 Switch-Case hat im Prinzip dieselbe Funktion wie if und else. Es sorgt dafür dass, wenn ein Benutzer etwas bestimmtes eingibt (Fall), die darauf folgende Aktion auf den Fall abgestimmt ist. Bei if und else ist das ganze aber sehr unübersichtlich und in die Länge gezogen, denn man müsste für jeden einzelnen Fall einen neuen if/else Befehl erstellen. Hingegen bei Switch-Case kann man alle möglichen Fälle beieinander erstellen und es herrscht Ordnung. Mit dem Befehl "switch" beginnt man und kann danach beliebig viele "case" erstellen, also Fälle. Am Ende kommt noch ein "default" dazu, der sorgt dafür, dass bei einer Fehleingabe das Programm nicht einfach abstürzt. Anstelle dessen gibt es eine Fehlermeldung aus und bittet den Benutzer nochmals eine Eingabe zu tätigen, welche korrekt ist. Switch-Case haben wir oft verwendet, da es uns sehr geholfen hat die Übersicht zu behalten. Wir konnten somit die vielen Bedingungen unseres Programmes gut unterbringen.
 
 
-''' Console.Write(namen[durchlauf / 3] + " > Kurs " + (i + 1) + " auswählen: ");
+```
+ Console.Write(namen[durchlauf / 3] + " > Kurs " + (i + 1) + " auswählen: ");
                         int eingabe = Convert.ToInt32(Console.ReadLine());
                         if (eingabe >= 1 && eingabe <= 5)
                         { 
@@ -36,9 +37,7 @@ Switch-Case hat im Prinzip dieselbe Funktion wie if und else. Es sorgt dafür da
                                 default:
                                     break;
                             }
-                         }  
-'''
-                         
+```
 In diesem Code Fetzten geht es darum, dass der Benutzer drei Prioritäten setzt. Als erstes haben wir "Switch(i)",  also wissen wir jetzt, dass eine Switch-Case kommt und wie sie bennent ist. Danach kommen unsere drei "Case", unsere Fälle. Das geschriebene (e2==e1) sorgt dafür, dass die gesetzte zweite Priorität nicht die gleiche wie die erste ist, das wird deutlich gemacht mit "throw new expection". Am Schluss dann noch der "default", für die Fehlermeldung. Oben wird noch mit einer if/else Bedingung sichergestellt, dass die Eingabe zwischen 1-5 ist, da es nur 5 Kurse gibt.
 
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
