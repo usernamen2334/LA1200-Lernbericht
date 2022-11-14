@@ -14,7 +14,10 @@ In unserem Code haben wir mehrmals Switch-Case angewendet, sind nun sicher beim 
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
+
+Switch-Case hat im Prinzip dieselbe Funktion wie if und else. Es sorgt dafür dass, wenn ein Benutzer etwas bestimmtes eingibt (Fall), die darauf folgende Aktion auf den Fall abgestimmt ist. Bei if und else ist das ganze aber sehr unübersichtlich und in die Länge gezogen, denn man müsste für jeden einzelnen Fall einen neuen if/else Befehl erstellen. Hingegen bei Switch-Case kann man alle möglichen Fälle beieinander erstellen und es herrscht Ordnung. Mit dem Befehl "switch" beginnt man und kann danach beliebig viele "case" erstellen, also Fälle. Am Ende kommt noch ein "default" dazu, der sorgt dafür, dass bei einer Fehleingabe das Programm nicht einfach abstürzt. Anstelle dessen gibt es eine Fehlermeldung aus und bittet den Benutzer nochmals eine Eingabe zu tätigen, welche korrekt ist. Switch-Case haben wir oft verwendet, da es uns sehr geholfen hat die Übersicht zu behalten. Wir konnten somit die vielen Bedingungen unseres Programmes gut unterbringen.
+
+
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
