@@ -40,7 +40,7 @@ Switch-Case hat im Prinzip dieselbe Funktion wie if und else. Es sorgt dafür da
 ```
 In diesem Code Fetzten geht es darum, dass der Benutzer drei Prioritäten setzt. Als erstes haben wir "Switch(i)",  also wissen wir jetzt, dass eine Switch-Case kommt und wie sie bennent ist. Danach kommen unsere drei "Case", unsere Fälle. Das geschriebene (e2==e1) sorgt dafür, dass die gesetzte zweite Priorität nicht die gleiche wie die erste ist, das wird deutlich gemacht mit "throw new expection". Am Schluss dann noch der "default", für die Fehlermeldung. Oben wird noch mit einer if/else Bedingung sichergestellt, dass die Eingabe zwischen 1-5 ist, da es nur 5 Kurse gibt.
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
+![70tl81](https://user-images.githubusercontent.com/110892575/201898659-0c1f5d12-d254-45e9-82b8-4cdbaeba3acd.gif)
 
 ## Verifikation
 
